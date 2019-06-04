@@ -1,0 +1,3 @@
+# spam-email-filtering
+A supervised classification pipeline to classify emails as spam or non-spam, dataset - enron pre-processed emails
+I defined each functionality of the program as methods. All these functions are invoked from main() method. Please run the script EmailClassification_R00171244.py directly, it will output everything including graphs, model accuracy, ROC curve. Please replace the variable ‘path_ham’ and ‘path_spam’ in methods readHamMails(), readSpamMails() function with the ham and spam email path on your local machine.  The program sometimes takes more time to run to give output as it includes pre-processing with tokenising and de-tokenizing and training multiple models. 
